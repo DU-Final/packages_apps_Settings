@@ -4751,4 +4751,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
 
+    <!-- Share Dirty Unicorns -->
+    <string name="share_chameleonos_title">Share Dirty Unicorns</string>
+    <string name="share_chameleonos_summary">Let others know about Dirty Unicorns</string>
+    <string name="share_message">I\'m running Dirty Unicorns by Team D.I.R.T and LOVE it!</string>
+    <string name="share_chooser_title">Share it BABY!</string>
+
 </resources>

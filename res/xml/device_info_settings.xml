@@ -117,6 +117,11 @@
                 android:title="@string/device_screen_resolution"/>
         </PreferenceScreen>
 
+        <Preference
+            android:key="share"
+            android:title="@string/share_chameleonos_title"
+            android:summary="@string/share_chameleonos_summary" />
+
         <PreferenceScreen
                 android:key="safetylegal"
                 android:title="@string/settings_safetylegal_title">
