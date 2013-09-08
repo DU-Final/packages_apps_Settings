@@ -2421,9 +2421,9 @@
 
     <!-- About --> <skip />
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings" product="tablet">About tablet</string>
+    <string name="about_settings" product="tablet">About DU</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings" product="default">About phone</string>
+    <string name="about_settings" product="default">About DU</string>
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
     <string name="about_settings_summary">View legal info, status, software version</string>
     <!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
@@ -2563,9 +2563,6 @@
     <string name="lock_intro_message" product="default">Protect your phone from unauthorized use by creating a personal screen unlock pattern. Slide your finger to connect at least four dots in any order on the next screen.
         \n\nReady to start? Touch Next.
     </string>
-
-    <!-- Device specific settings -->
-    <string name="advanced_settings_title">Device options</string>
 
     <!-- Applications Settings --> <skip />
     <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
@@ -4552,9 +4549,8 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-    <string name="quick_links_title">Quick Links</string>
+    <string name="quick_links_title">CUSTOMIZATIONS</string>
     <string name="rom_control_title">ROM Control</string>
-    <string name="themes_title">Themes</string>
 
     <string name="mod_version">DU version</string>
     <string name="mod_version_default">Unknown</string>
@@ -4702,7 +4698,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="ok">OK</string>
 
     <!-- TRDS Settings -->
-    <string name="trds_settings_title">Dark AOKP</string>
+    <string name="trds_settings_title">Dark Mode</string>
 
     <!-- User app limits screen title [CHAR LIMIT=35] -->
     <string name="user_restrictions_title">Application and content restrictions</string>
