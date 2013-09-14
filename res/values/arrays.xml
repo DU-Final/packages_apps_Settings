@@ -1009,7 +1009,6 @@
         <item>500</item>
     </string-array>
 
-<<<<<<< HEAD
     <!-- Auto-brightness sensitivity -->
     <string-array name="auto_brightness_sensitivity_entries" translatable="false">
         <item>@string/auto_brightness_sensitivity_verylow</item>
@@ -1040,7 +1039,8 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-=======
+    </string-array>
+
     <!-- Profile mode options. -->
     <string-array name="profile_entries">
         <item>On</item>
@@ -1121,7 +1121,6 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
->>>>>>> a0d4db0... Bring in Profiles support from mr0
     </string-array>
 
 </resources>
