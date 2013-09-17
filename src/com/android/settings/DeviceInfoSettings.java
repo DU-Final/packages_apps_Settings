@@ -69,6 +69,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_CHANGELOG = "changelog";
     private static final String KEY_ABOUTDIRT = "aboutdirt";
+    private static final String KEY_DUSTATS = "dustats";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
     private static final String KEY_MOD_VERSION = "mod_version";

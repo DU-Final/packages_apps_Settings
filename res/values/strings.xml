@@ -5050,4 +5050,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="aboutdirt">About Dirty Unicorns</string>
     <string name="aboutdirt_summary">Learn more about features and show your support</string>
 
+    <!-- DU Stats -->
+    <string name="du_stats">DU Stats</string>
+    <string name="du_stats_summary">Help make DU better by opting into anonymous statistics reporting</string>
+
 </resources>
