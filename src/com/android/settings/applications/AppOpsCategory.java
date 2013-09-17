@@ -333,11 +333,17 @@ public class AppOpsCategory extends ListFragment implements
         Bundle args = new Bundle();
         args.putString(AppOpsDetails.ARG_PACKAGE_NAME, mCurrentPkgName);
 
-        PreferenceActivity pa = (PreferenceActivity)getActivity();
-        pa.startPreferencePanel(AppOpsDetails.class.getName(), args,
-                R.string.app_ops_settings, null, this, RESULT_APP_DETAILS);
+        if (getActivity() instanceof PreferenceActivity) {
+            PreferenceActivity pa = (PreferenceActivity)getActivity();
+            pa.startPreferencePanel(AppOpsDetails.class.getName(), args,
+                    R.string.app_ops_settings, null, this, RESULT_APP_DETAILS);
+        } else {
+            PreferenceActivity pa = (PreferenceActivity)getActivity();
+            pa.startPreferencePanel(AppOpsDetails.class.getName(), args,
+                    R.string.app_ops_settings, null, this, RESULT_APP_DETAILS);
+        }
     }
-    
+
     @Override public void onListItemClick(ListView l, View v, int position, long id) {
         AppOpEntry entry = mAdapter.getItem(position);
         if (entry != null) {
