@@ -34,6 +34,16 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
+        <!-- DU Changelog -->
+        <PreferenceScreen
+            android:key="changelog"
+            android:title="@string/duchangelog"
+            android:summary="@string/du_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="us.zamzow.mazwoz.dirtyunicornschangelog"
+                android:targetClass="us.zamzow.mazwoz.dirtyunicornschangelog.MainActivity" />
+        </PreferenceScreen>
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 

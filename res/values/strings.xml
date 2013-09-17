@@ -5042,4 +5042,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="volume_overlay_expanded">Expanded</string>
     <string name="volume_overlay_none">None</string>
 
+    <!-- DU Changelog -->
+    <string name="duchangelog">Changelog</string>
+    <string name="du_summary">Check to see what has changed in DU</string>
+
 </resources>
