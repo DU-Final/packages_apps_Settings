@@ -19,6 +19,16 @@
 
         <PreferenceScreen android:key="dirt_logo"
                           android:layout="@layout/dirt_logo_row" />
+
+        <PreferenceScreen
+            android:key="aboutdirt"
+            android:title="@string/aboutdirt"
+            android:summary="@string/aboutdirt_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.dirtyunicorns.about"
+                    android:targetClass="com.dirtyunicorns.about.AboutActivity" />
+        </PreferenceScreen>
+
         <!-- System update settings - launches activity -->
       <!--  <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title" 

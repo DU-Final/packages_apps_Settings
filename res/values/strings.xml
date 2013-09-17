@@ -5046,4 +5046,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="duchangelog">Changelog</string>
     <string name="du_summary">Check to see what has changed in DU</string>
 
+    <!-- About Dirt -->
+    <string name="aboutdirt">About Dirty Unicorns</string>
+    <string name="aboutdirt_summary">Learn more about features and show your support</string>
+
 </resources>
