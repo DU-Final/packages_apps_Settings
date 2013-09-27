@@ -214,6 +214,13 @@
         android:title="@string/app_ops_settings"
         android:id="@+id/app_ops" />
 
+    <!-- Halo -->
+    <header
+        android:id="@+id/halo"
+        android:fragment="com.android.settings.paranoid.Halo"
+        android:title="@string/halo_settings_title"
+        android:icon="@drawable/ic_rom_control_halo" />
+
     <!-- Date & Time -->
     <header
         android:id="@+id/date_time_settings"

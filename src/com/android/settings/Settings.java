@@ -134,6 +134,7 @@ public class Settings extends PreferenceActivity
             R.id.quick_links,
             R.id.rom_control,
             R.id.launcher_settings,
+            R.id.halo,
             R.id.sprint_tools
     };
 
