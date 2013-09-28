@@ -4732,12 +4732,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="ok">OK</string>
 
-<<<<<<< HEAD
-    <!-- TRDS Settings -->
-    <string name="trds_settings_title">Dark Mode</string>
-
-=======
->>>>>>> 2057a2b... Remove Dark UI from settings
     <!-- User app limits screen title [CHAR LIMIT=35] -->
     <string name="user_restrictions_title">Application and content restrictions</string>
     <!-- User limits screen, user name rename text [CHAR LIMIT=15] -->
