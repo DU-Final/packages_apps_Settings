@@ -36,6 +36,13 @@
         android:title="@string/bluetooth_settings_title"
         android:icon="@drawable/ic_settings_bluetooth2" />
 
+    <!-- Profiles -->
+    <header
+        android:id="@+id/profiles_settings"
+        android:icon="@drawable/ic_settings_profiles"
+        android:fragment="com.android.settings.profiles.ProfilesSettings"
+        android:title="@string/profiles_settings_title" />
+
     <!-- Data Usage -->
     <header
         android:id="@+id/data_usage_settings"
@@ -57,40 +64,6 @@
         android:breadCrumbTitle="@string/wireless_networks_settings_title"
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
-
-    <!-- Customizations -->
-    <header android:id="@+id/quick_links"
-            android:title="@string/quick_links_title" />
-
-    <header
-        android:id="@+id/launcher_settings"
-        android:title="@string/launcher_settings_title"
-        android:icon="@drawable/ic_settings_launcher" />
-
-    <header android:id="@+id/rom_control"
-            android:title="@string/rom_control_title"
-            android:icon="@drawable/ic_settings_rom_control" >
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.aokp.romcontrol.ROMControlActivity"
-                android:targetPackage="com.aokp.romcontrol" />
-    </header>
-
-    <!-- Profiles -->
-    <header
-        android:id="@+id/profiles_settings"
-        android:icon="@drawable/ic_settings_profiles"
-        android:fragment="com.android.settings.profiles.ProfilesSettings"
-        android:title="@string/profiles_settings_title" />
-
-    <header android:id="@+id/sprint_tools"
-            android:title="@string/sprint_tools_title"
-            android:icon="@drawable/ic_sprint_tools">
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="org.teameos.settings.device"
-                android:targetClass="org.teameos.settings.device.DeviceSettings" />
-    </header>
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
@@ -191,6 +164,33 @@
             android:action="android.settings.ADD_ACCOUNT_SETTINGS"/>
     </header>
 
+    <!-- Customizations -->
+    <header android:id="@+id/quick_links"
+            android:title="@string/quick_links_title" />
+
+    <header
+        android:id="@+id/launcher_settings"
+        android:title="@string/launcher_settings_title"
+        android:icon="@drawable/ic_settings_launcher" />
+
+    <header android:id="@+id/rom_control"
+            android:title="@string/rom_control_title"
+            android:icon="@drawable/ic_settings_rom_control" >
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.aokp.romcontrol.ROMControlActivity"
+                android:targetPackage="com.aokp.romcontrol" />
+    </header>
+
+    <header android:id="@+id/sprint_tools"
+            android:title="@string/sprint_tools_title"
+            android:icon="@drawable/ic_sprint_tools">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.teameos.settings.device"
+                android:targetClass="org.teameos.settings.device.DeviceSettings" />
+    </header>
+
     <!-- SYSTEM -->
     <header android:id="@+id/system_section"
         android:title="@string/header_category_system" />
@@ -201,13 +201,6 @@
         android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
         android:icon="@drawable/ic_action_permission"
         android:title="@string/superuser" />
-
-    <!-- App Ops -->
-    <header
-        android:fragment="com.android.settings.applications.AppOpsSummary"
-        android:icon="@drawable/ic_settings_appops"
-        android:title="@string/app_ops_settings"
-        android:id="@+id/app_ops" />
 
     <!-- Halo -->
     <header
