@@ -21,7 +21,7 @@
             android:key="location_toggle"
             android:title="@string/location_access_title"
             android:summary="@string/location_access_summary"
-            android:persistent="true"/>
+            android:persistent="true" />
 
         <PreferenceCategory
             android:key="location_sources"
