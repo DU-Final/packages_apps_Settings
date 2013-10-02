@@ -59,6 +59,16 @@
                 android:targetClass="us.zamzow.mazwoz.dirtyunicornschangelog.MainActivity" />
         </PreferenceScreen>
 
+        <!-- DU Updater -->
+        <PreferenceScreen
+            android:key="updater"
+            android:title="@string/du_updater"
+            android:summary="@string/du_updater_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.dirtyunicorns.updater"
+                android:targetClass="com.dirtyunicorns.updater.MainActivity" />
+        </PreferenceScreen>
+
         <!-- DU Stats -->
         <PreferenceScreen
             android:key="dustats"

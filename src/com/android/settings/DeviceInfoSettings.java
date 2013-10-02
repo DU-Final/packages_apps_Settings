@@ -70,6 +70,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_CHANGELOG = "changelog";
     private static final String KEY_ABOUTDIRT = "aboutdirt";
     private static final String KEY_DUSTATS = "dustats";
+    private static final String KEY_UPDATER = "updater";
 
     private static final String KEY_MOD_VERSION = "mod_version";
 
