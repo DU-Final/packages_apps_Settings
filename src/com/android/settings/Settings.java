@@ -572,10 +572,6 @@ public class Settings extends PreferenceActivity
         return headerIndex;
     }
 
-    private boolean needsAdvancedSettings() {
-        return getResources().getBoolean(R.bool.has_advanced_settings);
-    }
-
     private boolean isSprintDevice() {
         return getResources().getBoolean(R.bool.is_sprint_device);
     }
