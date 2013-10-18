@@ -238,7 +238,7 @@
         android:id="@+id/gesture_settings_title"
         android:fragment="com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereSettings"
         android:icon="@drawable/ic_settings_gesture_anywhere"
-        android:title="@string/gesture_anywhere_title" />
+        android:title="@string/gesture_anywhere_settings" />
 
     <!-- Development -->
     <header
