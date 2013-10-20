@@ -51,11 +51,6 @@
                 android:dialogTitle="@string/dialog_title_font_size" />
 
         <CheckBoxPreference
-            android:key="use_bln"
-            android:title="@string/title_use_bln"
-            android:summary="@string/summary_use_bln" />
-
-        <CheckBoxPreference
             android:key="notification_pulse"
             android:title="@string/notification_pulse_title"
             android:persistent="false" />
