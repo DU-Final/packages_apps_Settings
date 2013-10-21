@@ -4877,8 +4877,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Share Dirty Unicorns -->
     <string name="share_chameleonos_title">Share Dirty Unicorns</string>
     <string name="share_chameleonos_summary">Let others know about Dirty Unicorns</string>
-    <string name="share_message">I\'m running Dirty Unicorns by Team D.I.R.T and LOVE it!</string>
-    <string name="share_chooser_title">Share it BABY!</string>
+    <string name="share_message">Loving #DirtyUnicorns by Team D.I.R.T</string>
+    <string name="share_chooser_title">Share Dirty Unicorns</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
