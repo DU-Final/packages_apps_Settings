@@ -27,6 +27,7 @@ import android.app.VibrationPickerDialog;
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
@@ -414,6 +415,16 @@ public class SoundSettings extends SettingsPreferenceFragment implements
 
         } else if (preference == mCameraSounds) {
             SystemProperties.set(PROP_CAMERA_SOUND, mCameraSounds.isChecked() ? "1" : "0");
+        new AlertDialog.Builder(getActivity())
+        .setTitle("WARNING!")
+        .setMessage("Please be aware that this is ILLEGAL in some areas. Please use with caution!")
+        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        }
+    )
+
+        .show();
 
         } else if (preference == mVolumeAdjustSounds) {
             Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED ,
