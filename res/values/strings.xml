@@ -4677,10 +4677,8 @@
     <string name="cell_broadcast_settings">Cell broadcasts</string>
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
-
     <string name="quick_links_title">CUSTOMIZATIONS</string>
     <string name="rom_control_title">ROM Control</string>
-
     <string name="mod_version">DU version</string>
     <string name="mod_version_default">Unknown</string>
 
@@ -4735,7 +4733,6 @@
     <!-- time range preference -->
     <string name="start_time_title">Start</string>
     <string name="end_time_title">End</string>
-
     <string name="vibration_title">Phone vibration</string>
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
@@ -4744,7 +4741,6 @@
     <!-- AOKP specific sound settings
     <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
-
     <string name="lockscreen_quick_unlock_control_title">Quick pin unlock</string>
     <string name="lockscreen_quick_unlock_control_summary">Unlock password/pin lockscreen without pressing enter button</string>
 
@@ -4931,7 +4927,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="profile_lockmode_disabled_summary">Lock screen is disabled</string>
     <string name="profile_airplanemode_title">Airplane mode</string>
     <string name="profile_disable_screen_lock_summary">Disable lock screen security while this profile is active</string>
-
     <string name="vibrator_type_ringer">Calls</string>
     <string name="vibrator_type_notification">Notifications</string>
 
